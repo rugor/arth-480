@@ -7,6 +7,8 @@ html {
 	line-height: 1.5rem;
 	background-color: #ffffff;
 	color: #000000;
+	font-style: normal;
+	font-weight: 400;
 }
 
 body {
@@ -51,6 +53,7 @@ body {
 .flowtime h5,
 .flowtime h6 {
 	font-family: "Open Sans";
+	font-style: bold;
 	font-weight: 700;
 	color: #000000;
 }
