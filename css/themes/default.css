@@ -1,5 +1,3 @@
-
-
 /* theme */
 
 html {
@@ -359,4 +357,22 @@ body {
 	left: 49%;
 	bottom: -32%;
 	z-index: 30;
+}
+
+/* Edits */
+
+ul.license li:before {
+	display: none;
+}
+
+ul.license li {
+	display: inline-block;
+}
+
+ul.license li:first-child {
+	margin-right: 3rem;
+}
+
+.github-link {
+	font-size: 1.5rem;
 }
