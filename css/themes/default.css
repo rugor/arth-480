@@ -87,7 +87,7 @@ body {
 
 .flowtime p {
 	font-size: 1.5rem;
-	line-height: 1.75rem;
+	line-height: 2rem;
 	margin: 2rem 0;
 }
 
@@ -97,7 +97,7 @@ body {
 .flowtime ol,
 .flowtime dl {
 	font-size: 1.5rem;
-	line-height: 1.75rem;
+	line-height: 2rem;
 	margin: 2rem 0;
 }
 
@@ -184,9 +184,10 @@ body {
 .flowtime blockquote {
 	font-size: 1.5rem;
 	margin: 1.5rem 2rem;
-	padding: 1rem;
+	padding: 2rem;
 	border-width: 0px 0px 0px 3px;
 	border-style: solid;
+	line-height: 1.75rem;
 }
 
 .flowtime q,
@@ -375,4 +376,12 @@ ul.license li:first-child {
 
 .github-link {
 	font-size: 1.5rem;
+}
+
+p.caption {
+	margin: 0;
+}
+
+.mw {
+	max-width: 420px !important;
 }
